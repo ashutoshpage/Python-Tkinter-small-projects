@@ -138,7 +138,7 @@ b2.pack(side=LEFT, padx=10)
 b3.pack(padx=10)
 
 Button(root, text="Reset Game",
-	font=10, fg="red",
+	font=10, fg="yellow",
 	bg="black", command=reset_game).pack(pady=20)
 
 # Execute Tkinter
