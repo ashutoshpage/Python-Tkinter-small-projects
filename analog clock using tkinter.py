@@ -34,7 +34,7 @@ def ghadi_bana(hourr, minutee, secondd, kalam): #function with 4 parameters
         kalam.goto(0, 0) #positioning the turtle
         kalam.rt(30) #right at an angle of 30 degrees
 
-    hands = [("black", 80, 12), ("black", 150, 60), ("black", 110, 60)] #the color and the hands set
+    hands = [("yellow", 80, 12), ("blue", 150, 60), ("black", 110, 60)] #the color and the hands set
     time_set = (hourr, minutee, secondd) #setting the time
 
     for hand in hands: #loop
